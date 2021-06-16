@@ -12,9 +12,13 @@ int main()
       reversedNum = reversedNum * 10 + remainder;
       duplicateNum /= 10;
    }
+   printf("=========================Result=========================\n");
    if (originalNum == reversedNum)
    {
-      printf("=========================Result=========================\n");
       printf("The original number = %i.\nThe revesed number = %i.\nHence, the input number i.e. %i is palindrome.", originalNum, reversedNum, originalNum);
+   }
+   else
+   {
+      printf("The original number = %i.\nThe revesed number = %i.\nHence, the input number i.e. %i is not palindrome.", originalNum, reversedNum, originalNum);
    }
 }
