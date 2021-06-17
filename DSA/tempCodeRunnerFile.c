@@ -21,5 +21,4 @@ int main()
    {
       printf("The original number = %i.\nThe revesed number = %i.\nHence, the input number i.e. %i is not palindrome.", originalNum, reversedNum, originalNum);
    }
-   return 0;
 }

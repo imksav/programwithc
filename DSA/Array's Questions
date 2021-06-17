@@ -1,0 +1,9 @@
+1. write c program to check whether the given number is palindrome or not.
+eg. 16461 - 16461
+2. write c program with following:
+    - create an integer array of size 10.
+    - ask the user for array elements.
+    - display the elements in the array.
+    - sort the array is ascending order.
+    - for given search key, determine whether the key is present or absent.
+    - find the average of elements in the array
